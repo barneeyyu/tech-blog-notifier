@@ -1,10 +1,23 @@
 {
-  "netflix": [],
+  "netflix": [
+    "https://medium.com/p/77146fba8a08"
+  ],
   "uber": [],
   "stripe": [],
   "square": [],
-  "discord": [],
+  "discord": [
+    "https://discord.com/blog/discord-is-now-on-meta-quest-reach-out-to-your-servers-while-in-vr",
+    "https://discord.com/blog/cost-attribution-in-discords-api"
+  ],
   "figma": [],
-  "vercel": [],
+  "vercel": [
+    "https://vercel.com/changelog/claude-fable-5-access-restored-on-ai-gateway",
+    "https://vercel.com/changelog/agent-runs-vercel-mcp-cli",
+    "https://vercel.com/changelog/ai-gateway-routing-rules",
+    "https://vercel.com/changelog/vercel-sandbox-now-supports-fuse-based-filesystems",
+    "https://vercel.com/changelog/enforce-consistent-code-for-agents-and-humans-with-konsistent",
+    "https://vercel.com/changelog/secure-internal-communication-between-services",
+    "https://vercel.com/changelog/manage-vercel-flags-segments-with-vercel-cli"
+  ],
   "aws": []
 }
