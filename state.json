@@ -1,22 +1,32 @@
 {
   "netflix": [
-    "https://medium.com/p/77146fba8a08"
+    "https://medium.com/p/7ca25888591e",
+    "https://medium.com/p/0165ba13a7bc",
+    "https://medium.com/p/77146fba8a08",
+    "https://medium.com/p/87860682629c",
+    "https://medium.com/p/18b699d58e36",
+    "https://medium.com/p/eb8160ed60a2",
+    "https://medium.com/p/4d89b26525cd",
+    "https://medium.com/p/4623f0a9c5af",
+    "https://medium.com/p/6e13329c80a1",
+    "https://medium.com/p/587b1f2de928"
   ],
   "uber": [],
   "stripe": [],
   "square": [],
   "discord": [
+    "https://discord.com/blog/cost-attribution-in-discords-api",
     "https://discord.com/blog/discord-is-now-on-meta-quest-reach-out-to-your-servers-while-in-vr",
-    "https://discord.com/blog/cost-attribution-in-discords-api"
+    "https://discord.com/blog/discord-update-june-25-2026-changelog"
   ],
   "figma": [],
   "vercel": [
-    "https://vercel.com/changelog/claude-fable-5-access-restored-on-ai-gateway",
-    "https://vercel.com/changelog/agent-runs-vercel-mcp-cli",
-    "https://vercel.com/changelog/ai-gateway-routing-rules",
-    "https://vercel.com/changelog/vercel-sandbox-now-supports-fuse-based-filesystems",
-    "https://vercel.com/changelog/enforce-consistent-code-for-agents-and-humans-with-konsistent",
     "https://vercel.com/changelog/secure-internal-communication-between-services",
+    "https://vercel.com/changelog/enforce-consistent-code-for-agents-and-humans-with-konsistent",
+    "https://vercel.com/changelog/agent-runs-vercel-mcp-cli",
+    "https://vercel.com/changelog/vercel-sandbox-now-supports-fuse-based-filesystems",
+    "https://vercel.com/changelog/claude-fable-5-access-restored-on-ai-gateway",
+    "https://vercel.com/changelog/ai-gateway-routing-rules",
     "https://vercel.com/changelog/manage-vercel-flags-segments-with-vercel-cli"
   ],
   "aws": []
