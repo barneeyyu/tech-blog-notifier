@@ -28,6 +28,12 @@ def run(state_path: str = STATE_PATH, feeds: list = None) -> None:
 
         new_articles = [a for a in articles if a["id"] not in seen]
 
+        # On first run, mark all fetched articles as seen (even ones we won't send)
+        # so future runs only pick up genuinely new articles
+        if is_first_run:
+            for article in articles:
+                seen.add(article["id"])
+
         for article in new_articles:
             if total_sent >= MAX_ARTICLES_PER_RUN:
                 break
