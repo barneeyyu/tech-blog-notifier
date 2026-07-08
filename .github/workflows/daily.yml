@@ -3,7 +3,16 @@ name: Daily Tech Blog Digest
 on:
   schedule:
     - cron: '0 1 * * *'  # 09:00 TST (UTC+8)
-  workflow_dispatch:       # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      init:
+        description: 'Run in init mode (mark all existing articles as seen, send nothing)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
 
 permissions:
   contents: write
@@ -28,7 +37,12 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
-        run: python main.py
+        run: |
+          if [ "${{ github.event.inputs.init }}" = "true" ]; then
+            python main.py --init
+          else
+            python main.py
+          fi
 
       - name: Commit updated state
         run: |
