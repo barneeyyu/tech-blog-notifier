@@ -6,22 +6,10 @@ FEEDS = [
         "rss": "https://netflixtechblog.com/feed",
     },
     {
-        "key": "uber",
-        "name": "Uber Engineering",
-        "emoji": "🚗",
-        "rss": "https://eng.uber.com/feed/",
-    },
-    {
         "key": "stripe",
         "name": "Stripe Engineering",
         "emoji": "💳",
-        "rss": "https://stripe.com/blog/engineering/rss",
-    },
-    {
-        "key": "square",
-        "name": "Square/Block Engineering",
-        "emoji": "⬛",
-        "rss": "https://developer.squareup.com/blog/rss",
+        "rss": "https://stripe.com/blog/feed.rss",
     },
     {
         "key": "discord",
@@ -33,7 +21,7 @@ FEEDS = [
         "key": "figma",
         "name": "Figma Blog",
         "emoji": "🎨",
-        "rss": "https://www.figma.com/blog/feed/",
+        "rss": "https://medium.com/feed/figma-design",
     },
     {
         "key": "vercel",
