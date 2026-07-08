@@ -8,7 +8,7 @@ from state import load_state, save_state
 
 STATE_PATH = os.path.join(os.path.dirname(__file__), "state.json")
 MAX_ARTICLES_PER_RUN = 10
-MAX_ARTICLE_AGE_DAYS = 30
+MAX_ARTICLE_AGE_DAYS = 7
 
 def init(state_path: str = STATE_PATH, feeds: list = None) -> None:
     """Scan all feeds and mark every article from the past 30 days as seen,
